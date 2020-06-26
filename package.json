@@ -1,0 +1,25 @@
+{
+  "name": "temp-mail-api",
+  "version": "1.0.1",
+  "description": "NodeJS API for temp-mail.org",
+  "main": "main.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mathieu2301/Temp-Mail-API.git"
+  },
+  "keywords": [
+    "temp-mail",
+    "temp",
+    "mail",
+    "api"
+  ],
+  "author": "Mathieu Colmon (usp-3.fr)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mathieu2301/Temp-Mail-API/issues"
+  },
+  "homepage": "https://github.com/Mathieu2301/Temp-Mail-API#readme"
+}
