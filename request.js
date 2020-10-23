@@ -5,7 +5,8 @@ module.exports = function(path, cb = (rs, err) => {}) {
     hostname: 'api4.temp-mail.org',
     port: 443,
     path,
-    method: 'GET'
+    method: 'GET',
+    headers: { 'user-agent': 'temp-mail-api/1.1.0' },
   }, (res) => {
     let d = '';
 
