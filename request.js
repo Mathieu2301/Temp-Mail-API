@@ -1,12 +1,16 @@
 const https = require('https');
+const fakeUserAgent = require('fake-useragent');
 
-module.exports = function(path, cb = (rs, err) => {}) {    
+module.exports = function(path, cb = (rs, err) => {}) {
   const req = https.request({
     hostname: 'api4.temp-mail.org',
     port: 443,
     path,
     method: 'GET',
-    headers: { 'user-agent': 'temp-mail-api/1.1.0' },
+    // Adding fake user agent string to bypass cloudflare
+    headers: { 
+      'user-agent': fakeUserAgent()
+    },
   }, (res) => {
     let d = '';
 
