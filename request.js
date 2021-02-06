@@ -6,7 +6,7 @@ module.exports = function(path, cb = (rs, err) => {}) {
     port: 443,
     path,
     method: 'GET',
-    headers: { 'user-agent': 'temp-mail-api/1.1.0' },
+    headers: { 'user-agent': `TMA-${Math.random().toString(26).split('.')[1]}` },
   }, (res) => {
     let d = '';
 
