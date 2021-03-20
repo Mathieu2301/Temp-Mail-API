@@ -1,10 +1,11 @@
 {
   "name": "temp-mail-api",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "NodeJS API for temp-mail.org",
   "main": "main.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "check": "eslint ./"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/Mathieu2301/Temp-Mail-API/issues"
   },
-  "homepage": "https://github.com/Mathieu2301/Temp-Mail-API#readme"
+  "homepage": "https://github.com/Mathieu2301/Temp-Mail-API#readme",
+  "devDependencies": {
+    "chance": "^1.1.7",
+    "eslint": "^7.22.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  },
+  "dependencies": {
+    "fake-useragent": "^1.0.1"
+  }
 }

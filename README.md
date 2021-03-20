@@ -1,8 +1,6 @@
 # Temp Mail API
  NodeJS API for temp-mail.org
 
- No dependencies 💪
-
 ___
 ## Installation
 
