@@ -1,4 +1,5 @@
-module.exports = function (string) {
+/* eslint-disable */
+module.exports = function md5(string) {
   function RotateLeft(lValue, iShiftBits) {
     return (lValue<<iShiftBits) | (lValue>>>(32-iShiftBits));
   }
