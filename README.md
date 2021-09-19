@@ -1,6 +1,12 @@
 # Temp Mail API
  NodeJS API for temp-mail.org
 
+⚠
+`Temp-mail.org` devs remade their API on Oct 2020 so it uses a secured way to make requests.
+I will try to bypass it because it looks interesting.
+My work is available in the `experiments.js` file.
+⚠
+
 ___
 ## Installation
 
@@ -42,6 +48,4 @@ email1.ready((email, error) => {
 
 ___
 ## Problems
-
- If you have errors in console or unwanted behavior, just reload the page.
- If the problem persists, please create an issue [here](https://github.com/Mathieu2301/Temp-Mail-API/issues).
+ If you have errors in console or unwanted behavior, please create an issue [here](https://github.com/Mathieu2301/Temp-Mail-API/issues).
